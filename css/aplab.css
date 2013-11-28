@@ -191,3 +191,16 @@ border-bottom-left-radius:4px;
 .add-on{
     background-color: #FF9900;
 }
+
+/*Estilos extras*/
+.box-nombres{
+    margin: 0;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 10px 0;
+    color: white;
+    background-color: #7421cb;
+    display: block; 
+    text-align: center;
+    font-size: 130%;   
+}

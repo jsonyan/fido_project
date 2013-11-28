@@ -49,10 +49,13 @@
 					<div class="tab-content box-tab">
 						<div class="tab-pane active" id="tab1">
 							<h4 class="span8 well well-small">Agregar o borrar razas</h4>
-							<p class="span8 text-warning">
-							Adicione, borre, edite una o varias filas de razas. Recuerde que cada raza debe ir separada por una coma (<strong>,</strong>).
+							<p class="span8">
+                                                            <span class="badge badge-warning">Para adicionar una raza:</span> Escriba la raza en el campo, luego pulse ENTER.
 							</p>
-							<div class="span8 text">
+							<p class="span8">
+                                                            <span class="badge badge-warning">Para borrar una raza:</span> Pulse la X que corresponda a la raza que quiere eliminar.
+							</p>
+							<div class="span4 text">
 								<label>
 								Razas de perros
 								</label>
@@ -63,7 +66,7 @@
 									}
 								?>" data-role="tagsinput" placeholder="A&ntilde;adir razas"/>
 							</div>
-							<div class="span8">
+							<div class="span4">
 								<label>
 								Razas de Gatos
 								</label>
@@ -85,7 +88,7 @@
                                 </div>
 				<div class="form-actions span8 text-center">
                                     <button type="submit" class="btn btn-primary"><i class="icon-white icon-file"></i> Guardar todos los cambios</button>
-                                    <button type="submit" class="btn"><i class="icon-remove"></i> Cancelar</button>
+                                    <a href="<?php echo base_url(); ?>backend/bienvenida" class="btn"><i class="icon-remove"></i> Cancelar</a>
 				</div>
                             </form>
 			</div>
@@ -101,6 +104,9 @@
 
 
 	<!--INICIO// CARGA SCRIPTS -->
+
+        <link href="<?php echo base_url(); ?>css/bootstrap-tagsinput.css" rel="stylesheet">
+        <script src="<?php echo base_url(); ?>js/tags/bootstrap-tagsinput.min.js"></script>
 
 	<script type="text/javascript">
 	$(function(){

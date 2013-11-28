@@ -256,9 +256,9 @@
 			</div>
 		</div>	
 
-			<!--FIN//  
+			<!--FIN  
 			##############################################################
-			PANEL PRINCIPAL---COPIA TODO TU CODIGO DENTRO DEL DIV SPAN 10
+			PANEL PRINCIPAL - COPIA TODO TU CODIGO DENTRO DEL DIV SPAN 10
 			##############################################################
 			-->
 		</div>
@@ -276,7 +276,6 @@
 	<script src="<?php echo base_url();?>js/lightbox.js"></script>
         <script type="text/javascript">
 	$(function(){
-
 		//Algunas variables de Configuracion 	   
                 var perros = [<?php if(isset($razas_perros)){foreach($razas_perros as $raza) echo "\"".$raza."\",";}?>"no_definido"];
                 var gatos = [<?php if(isset($razas_gatos)){foreach($razas_gatos as $raza) echo "\"".$raza."\",";}?>"no_definido"];

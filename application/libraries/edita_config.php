@@ -45,7 +45,41 @@ class Edita_config{
 			exit('Error abriendo el archivo de configuracion.');
 		}		
 	}
-	public function borrarRaza($flag, $item_raza){
+
+        public function guardar($perros, $gatos){
+		if (file_exists('config.xml')) {
+                    $xml = simplexml_load_file('config.xml');
+                    
+
+                    foreach ($xml->perros->xpath('//raza') as $child)
+                    {
+                        unset($child[0]);
+                    }
+                    foreach ($xml->gatos->xpath('//raza') as $child)
+                    {
+                        unset($child[0]);
+                    }
+
+                    $comodin = ",";
+                    $tok = strtok($perros,$comodin);
+                    while($tok !=false){
+			$xml->perros->addChild('raza',$tok);
+                        $tok = strtok($comodin);
+                    }
+                    $tok = strtok($gatos,$comodin);
+                    while($tok !=false){
+			$xml->gatos->addChild('raza',$tok);
+                        $tok = strtok($comodin);
+                    }
+                    $salida = $xml->asXML();
+                    file_put_contents('config.xml',$salida);
+                    return true;
+		}else{
+                    return false;
+		}		
+	}
+
+        public function borrarRaza($flag, $item_raza){
 		$xml = simplexml_load_file('config.xml');
 		$target = 0;
 		$i = 0;	

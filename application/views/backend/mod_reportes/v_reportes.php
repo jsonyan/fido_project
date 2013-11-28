@@ -152,9 +152,9 @@
                                                             foreach($esterilizado as $fila){
                                                                 echo "<span class=\"span3\" style=\"text-transform:capitalize;\">";
                                                                 if($fila['esterilizado'] === '0')
-                                                                    echo "Esterilizado : ";
+                                                                    echo "No Esterilizado : ";
                                                                 else
-                                                                    echo "No esterilizado : ";
+                                                                    echo "Esterilizado : ";
                                                                 echo "<span class=\"badge badge-notif badge-info\">";
                                                                 echo $fila['cantidad'];
                                                                 echo "</span></span>";    
@@ -194,7 +194,7 @@
 			</div>
 			<!--FIN//  
 			##############################################################
-			PANEL PRINCIPAL---COPIA TODO TU CODIGO DENTRO DEL DIV SPAN 10
+			PANEL PRINCIPAL - COPIA TODO TU CODIGO DENTRO DEL DIV SPAN 10
 			##############################################################
 			-->
 		</div>

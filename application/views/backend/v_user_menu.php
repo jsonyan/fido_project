@@ -46,13 +46,13 @@
 					</a>
 				</div>
 				<div class="mod-menu-item text-center <?php if(isset($mod_activo)){ echo strcmp($mod_activo,"reportes")==0 ? "menu_activo" : "" ;}?>">
-					<a class="clearfix" href="#">
+					<a class="clearfix" href="<?php echo base_url();?>index.php/backend/mod_reportes">
 					<img src="<?php echo base_url(); ?>img/reportes.png" alt="" style="width:80px; height:40px">
 					<small class="clearfix">Reportes</small>
 					</a>
 				</div>
 				<div class="mod-menu-item text-center <?php if(isset($mod_activo)){ echo strcmp($mod_activo,"config")==0 ? "menu_activo" : "" ;}?>">
-					<a href="#" class="clearfix">
+					<a href="<?php echo base_url();?>index.php/backend/configuraciones/editar" class="clearfix">
 					<img src="<?php echo base_url(); ?>img/configuraciones.png" alt="" style="width:80px; height:40px">
 					<small class="clearfix">Configuraciones</small>
 					</a>
