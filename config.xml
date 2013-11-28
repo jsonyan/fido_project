@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<config>
+	<perros>
+		<raza>Chapi</raza>	
+		<raza>Mestizo</raza>	
+		<raza>Akita</raza>	
+		<raza>Beagle</raza>	
+		<raza>Boxer</raza>	
+		<raza>Bull Terrier</raza>	
+		<raza>Bulldog ingles</raza>	
+		<raza>Bulldog frances</raza>
+		<raza>Bullmastiff</raza>	
+		<raza>Caniche</raza>	
+		<raza>Chihuahua</raza>	
+		<raza>Chow chow</raza>	
+		<raza>Cocker spaniel</raza>	
+		<raza>Dalmata</raza>	
+		<raza>Doberman</raza>	
+		<raza>Dogo</raza>	
+		<raza>Fox terrier</raza>	
+		<raza>Galgo</raza>	
+		<raza>Labrador</raza>	
+		<raza>Husky siberiano</raza>	
+		<raza>Mastiff</raza>	
+		<raza>Pastor aleman</raza>	
+		<raza>Pequines</raza>	
+		<raza>Pitbull</raza>	
+		<raza>Rottweiler</raza>	
+		<raza>Shnauzer</raza>	
+		<raza>Yorkshire terrier</raza>	
+	</perros>
+	
+	<gatos>
+		<raza>Mestizo</raza>	
+		<raza>Abisinio</raza>	
+		<raza>Angora Turco</raza>	
+		<raza>Azul ruso</raza>	
+		<raza>Balines</raza>	
+		<raza>Bengali</raza>	
+		<raza>Bombay</raza>	
+		<raza>Britanico de pelo corto</raza>	
+		<raza>Britanico de pelo corto azul</raza>	
+		<raza>Britanico de pelo largo</raza>	
+		<raza>Cartujo</raza>	
+		<raza>Cornish rex</raza>	
+		<raza>Devon rex</raza>	
+		<raza>Exotico de pelo corto</raza>	
+		<raza>German rex</raza>	
+		<raza>Highland fold</raza>	
+		<raza>Himalayo</raza>	
+		<raza>Javanes</raza>	
+		<raza>Korat</raza>	
+		<raza>Maine coon</raza>	
+		<raza>Mau egipcio</raza>	
+		<raza>Persa</raza>	
+		<raza>Peterbald</raza>	
+		<raza>Ragdoll</raza>	
+		<raza>Scotish fold</raza>	
+		<raza>Siames</raza>	
+		<raza>Siberiano</raza>	
+		<raza>Snowshoe</raza>	
+		<raza>Somali</raza>	
+	</gatos>
+
+</config>

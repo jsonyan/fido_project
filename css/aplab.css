@@ -1,0 +1,193 @@
+/*
+##############################################
+Archivo principal: aplab.css
+Descripcion: Estilos definidos para la aplicacion FIDO-APLAB (primera version)
+##############################################
+*/
+ .boxBorder{
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+		border-radius:6px;
+	  	background-color:#fff;
+		-webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 3px; 
+		   -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px; 
+		        box-shadow: rgba(0,0,0,0.3) 0 1px 3px; 
+ }
+ .boxBorderInner{
+		border-radius:7px;
+		border:1px solid #ddd;
+ }
+ body{
+	background:#eee url("../img/bg_all.png");
+ }
+ .inner-container{
+ 	margin:10px;
+ }
+ .thumbnail{
+ 	background-color:#fff;
+ }
+ .spacer{
+	  	margin-bottom:1.5%;
+ }
+ .bak{ border:1px solid #0099CC}
+ .codigo-animal{ color:#009900}
+ .centrado{ margin:0 auto; display:block; clear:both}
+ 
+ .logo{
+ 	float:left;
+	width:140px
+ }
+ 
+ 
+ .navbar-inverse .navbar-inner {
+  background-color: #1b1b1b;
+  background-image: -moz-linear-gradient(top, #222222, #111111);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111));
+  background-image: -webkit-linear-gradient(top, #222222, #111111);
+  background-image: -o-linear-gradient(top, #222222, #111111);
+  background-image: linear-gradient(to bottom, #222, #111);
+  background-repeat: repeat-x;
+  border-color: #252525;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+}
+
+ #user_menu div.mod-menu-item{
+ background:#eee url("../img/arrow-mod-menu.png") center right no-repeat;
+ margin:4px;
+ padding:4px 0;
+ height:60px;
+ border-radius:5px;
+ }
+ #user_menu div.mod-menu-item:hover{
+ background:#eee url("../img/arrow-mod-menu-hover.png") center right no-repeat;
+ }
+ #user_menu div.menu_activo{
+	background:#ddd url("../img/arrow-mod-menu-activo.png") center right no-repeat;
+ }
+ #user_menu div.mod-menu-item a{
+ 	display:block;
+ }
+ #user_menu div.mod-menu-item a:hover{
+ 	text-decoration:none;
+ }
+ 
+  .box-ver{
+	margin:0;
+	border-bottom-right-radius:6px;
+	border-bottom-left-radius:6px;
+	padding:3px 0;
+	color:#FFFFFF;
+	background-color:#006dcc;
+	display:block;
+	text-align:center;
+  }
+  a.box-ver:hover , a.box-ver:active{
+	background-color:#008833;
+	color:#FFFFFF;
+	text-decoration:none;
+  }
+  .box-notif-button:hover , .box-notif-button > h4:hover{
+      text-decoration: none;
+      background-color: #ddd;
+      border-color: #ccc;
+  }
+ 
+ 
+ /*APLAB BUTTONs*/
+.btn-aplab {
+  display: inline-block;
+  *display: inline;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  vertical-align:top;
+  background-color: #FF9900;
+  border: 1px solid #cccccc;
+  *border: 0;
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+border-top-left-radius:4px;
+border-bottom-left-radius:4px;
+  *zoom: 1;
+}
+ 
+
+.btn-aplab:hover,
+.btn-aplab:focus,
+.btn-aplab:active,
+.btn-aplab.active,
+.btn-aplab.disabled,
+.btn-aplab[disabled] {
+  color: #ffffff;
+  background-color: #FF9900;
+      *background-color: #003bb3;
+}
+
+.btn-aplab:active,
+.btn-aplab.active {
+  background-color: #003399 \9;
+}
+
+	  /*AJUSTES promo boxes*/
+	  .promo1 , .promo2 , .promo3, .promo4, .promo5{
+		margin:0;
+		border-top-right-radius:4px;
+		border-top-left-radius:4px;
+		color:#FFFFFF
+	  }
+	  .promo1{background-color:#7421CB;}
+	  .promo2{background-color:#B7051A;}
+	  .promo3{ background-color:#FFCC00;}
+	  .promo4{ background-color:#417B31;}
+	  .promo5{ background-color:#999999;}
+ /* EFECTOS */
+ .glass{
+	filter:alpha(opacity=20);-moz-opacity:.20;opacity:.20 
+ }
+ 
+/* .navbar-inner{
+	border:none; 
+	background:transparent url("../img/bg_navbar.png") 
+ }*/
+
+/*ALGUNOS BOXES MAS*/
+.box-no-results{
+    width: 50%;
+    background-color:#ffa ;
+    border: 2px solid orange;
+    margin:50px auto;
+    font-size: 150%;
+    color: orangered;
+    line-height: 150%;
+    padding:50px;
+    text-align: center;
+}
+.box-table{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius:6px;
+    background-color:#fff;
+    border:1px solid #ccc;
+}
+.descripcion{
+    padding:4px;    
+    line-height:100%;
+    display: block;
+}
+/*Bootstrap extend*/
+
+.badge-notif , .label-notif{
+    padding: 7px; 
+    font-size: 100%;
+}
+
+.add-on{
+    background-color: #FF9900;
+}

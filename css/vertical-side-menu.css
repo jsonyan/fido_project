@@ -1,0 +1,18 @@
+#sidebar {
+  background-color: #2C2C2C;
+  margin-left: 0px;
+  position: absolute;
+  top: 70px;
+  bottom: 0px;
+  min-height: 100%;
+}
+
+#sidebar > .nav > .nav-menu > a {
+  border: 0px;
+  border-radius: 0px;
+  padding: 20px;
+}
+
+#main {
+  float: right;
+}

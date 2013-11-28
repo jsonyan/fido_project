@@ -1,0 +1,106 @@
+/*
+#############################################
+|| FIDO-APLAB v.1
+|| Version del documento: 1.0
+|| Autor: Json Y.H.
+|| Descrip: Estilos para el frontend de la aplicacion Fido v.1
+#############################################
+*/
+      body {
+		background:#eee url("../img/bg_all.png");
+      }
+	  .boxRounded{
+	  	border-radius:7px;
+	  }
+	  .boxBottomRounded{
+	  	border-bottom-left-radius:7px;
+		border-bottom-right-radius:7px;
+	  }
+	  .img-center{
+		margin:0 auto; 
+		display:block	  
+	  }
+	  .img-novp{
+	  	width:100%;
+	  	border-bottom-left-radius:7px;
+		border-bottom-right-radius:7px;
+	  }
+	  .shadow-box{
+		border-radius:7px;
+	  	background-color:#fff;
+		-webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 3px; 
+		-moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px; 
+		box-shadow: rgba(0,0,0,0.3) 0 1px 3px; 
+	  }
+	  .spacer{
+	  	margin-bottom:1.5%;
+	  }
+	  
+	  .text-grey{
+	  	color:#aaa;
+	  }
+	  /*AJUSTES DE TOP MENU*/
+	  #top-menu .item-top > a{
+	  	color:#fff
+	  }
+	  #top-menu .item-top b.caret{
+		  border-top-color: #ffffff;
+		  border-bottom-color: #ffffff;
+	  }
+	  #top-menu .item-top{
+	  	background-color:#7421CB;
+		margin:0 1px;
+		border-bottom-right-radius:10px;
+		border-bottom-left-radius:10px;
+	  }
+	  #top-menu .top1{
+	  	background-color:#C520C4;
+	  }
+	  #top-menu .top2{
+	  	background-color:#DC143C;
+	  }
+	  #top-menu .top3{
+	  	background-color:#FF6600;
+	  }
+	  #top-menu .top4{
+	  	background-color:#FFCC00;
+	  }
+	  #top-menu .top5{
+	  	background-color:#6ECC20;
+	  }
+	  #top-menu .top6{
+	  	background-color:#4B8431;
+	  }
+      #top-menu .top7{
+	  	background-color:#9400D3;
+	  }
+	  
+	  /*AJUSTES promo boxes*/
+	  .promo1 , .promo2 , .promo3, .promo4{
+		margin:0;
+		border-top-right-radius:6px;
+		border-top-left-radius:6px;
+		padding:10px 0;
+		color:#FFFFFF
+	  }
+	  .promo1{background-color:#7421CB;}
+	  .promo2{background-color:#B7051A;}
+	  .promo3{ background-color:#FFCC00;}
+	  .promo4{ background-color:#417B31;}
+	  
+	  .box-nombres{
+		margin:0;
+		border-top-right-radius:6px;
+		border-top-left-radius:6px;
+		padding:10px 0;
+		color:#FFFFFF;
+		background-color:#7421CB;
+		display:block;
+		text-align:center;
+		font-size:130%;	  
+	  }
+/* CONFIG DE ALGUNOS EFECTOS */
+ .navbar-inner{
+	border:none; 
+	background:transparent url("../img/bg_navbar.png") 
+ }
