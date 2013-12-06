@@ -7,13 +7,13 @@ class Usuario extends CI_Controller
         $this->load->library('form_validation');
         $this->load->model('m_usuarios');
     }    
-	public function index() {
+    public function index() {
 	   $data = array(					  					         
-				      'titulo' => 'Registro de usuarios',
-					  'campos' => $this->auth->campos_formulario(),
-					  'token'  => $this->auth->token(),
-					  'key'	   => '6Len39QSAAAAAB1GgcnsXOPtciZD6-1ak67Z1qiY'	              
-				      );                     
+	     'titulo' => 'Registro de usuarios',
+	     'campos' => $this->auth->campos_formulario(),
+	     'token'  => $this->auth->token(),
+	     'key'    => '6Len39QSAAAAAB1GgcnsXOPtciZD6-1ak67Z1qiY'	              
+	   );                     
 		$this->load->view("frontend/v_header");
 		$this->load->view("frontend/v_top_menu_inicio",$data);
 		$this->load->view("frontend/v_registro_usuario",$data);//Aqui cargas la vista de tu modulo
@@ -144,10 +144,10 @@ class Usuario extends CI_Controller
             $this->form_validation->set_rules('nombre','Nombre','required');
             $this->form_validation->set_rules('apellidos','Apellidos','required');
             $this->form_validation->set_rules('email','E-Mail','required|trim|valid_email|callback_very_correo');
-            $this->form_validation->set_rules('pass','Contraseña','required|trim|min_length[6]');
-            $this->form_validation->set_rules('repass','Confirme Contraseña','required|trim|matches[pass]');            
+            $this->form_validation->set_rules('pass','Contraseï¿½a','required|trim|min_length[6]');
+            $this->form_validation->set_rules('repass','Confirme Contraseï¿½a','required|trim|matches[pass]');            
             $this->form_validation->set_message('required','El Campo %s Es Obligatorio');
-            $this->form_validation->set_message('valid_email','Ingrese un %s Válido');
+            $this->form_validation->set_message('valid_email','Ingrese un %s Vï¿½lido');
             $this->form_validation->set_message('matches','El Campo %s no es igual que el campos %s');
             $this->form_validation->set_message('min_length','El Campo %s debe tener como minimo 6 caracteres');
             $this->form_validation->set_message('very_correo','El Campo %s Ya Existe');

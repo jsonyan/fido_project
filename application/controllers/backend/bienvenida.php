@@ -38,9 +38,7 @@ class Bienvenida extends CI_Controller {
 	}
     public function logout_user()
 	{
-		
 		$this->auth->logout();
-
 	}
     
 } 

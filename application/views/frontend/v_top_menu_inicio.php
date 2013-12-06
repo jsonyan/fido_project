@@ -59,7 +59,7 @@
                     
 					<a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">
 					Iniciar sesion
-					<span class="caret"></span> 
+					<b class="caret"></b> 
                     <?php //if(isset($mensaje)):?>	                    	                   
                                                            			
 				    <?php echo $this->session->flashdata('cerrada') !== FALSE ? $this->session->flashdata('cerrada') : '' ?>						
@@ -72,7 +72,7 @@
 						<li style="padding:15px" id="login-form">
 						<div class="wrapper">
 		<div>
-			<h2 class="text-info">Login</h2>									
+			<h2 class="text-info">Acceso</h2>									
 				<?php echo form_open(base_url('frontend/inicio/user_login')) ?>
 				
 					<?php echo form_label('Email') ?>
@@ -83,12 +83,22 @@
 					
 					<?php echo form_hidden('token', $token) ?>
 					
-					<?php echo form_submit('submit', 'Ingresar') ?>
+                                        
+					<?php 
+                                            $valores = array(
+                                                'name' => 'submit',
+                                                'value' => 'Ingresar',
+                                                'class' => 'btn btn-primary pull-left'
+                                            );
+                                            echo form_submit($valores);
+                                            
+                                        $link = base_url()."frontend/usuario";
+                                        $styleAnchor = array('class'=>'btn btn-primary pull-right');
+                                        echo anchor($link,'Registrarme',$styleAnchor); ?>
 				
 				<?php echo form_close() ?>
 		</div>
 		
-		<?php echo anchor('../frontend/usuario','Registrarme') ?>
 	</div>                
 						</li>
 					</ul>

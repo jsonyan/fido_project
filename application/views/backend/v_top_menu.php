@@ -32,7 +32,7 @@
 				</a>
 				<ul class="dropdown-menu">
 					<li><a href="#">Editar mis datos</a></li>
-					<li><?php echo anchor('../backend/bienvenida/logout_user','Cerrar sesión') ?></li>
+					<li><?php echo anchor(base_url().'backend/bienvenida/logout_user','Cerrar sesi&oacute;n') ?></li>
 					<li></li>
 				</ul>
 				</div>

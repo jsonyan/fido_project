@@ -3,7 +3,7 @@
 	<div class="navbar promo4">
 		<div class="navbar-inner">
 		<div class="container">
-			<a  class="brand"style="color:white;">En memoria de nuestro querido recordado León FIDO (+)</a>
+			<a  class="brand"style="color:white;">En memoria de nuestro querido recordado Leï¿½n FIDO (+)</a>
 
 			<!--INICIO//  BARRA DE HERRAMIENTAS -->
 					<div class="btn-group pull-right">					
@@ -27,25 +27,26 @@
 			PANEL PRINCIPAL---COPIA TODO TU CODIGO DENTRO DEL DIV SPAN 10
 			##############################################################
 			-->
-    <p></p>
-    <h2>Fido</h2>
-    
-    <p style="text-align: justify;">    </p>
-    <p style="text-align: justify;">Ana Serrano Revollo escribió una carta por parte del león Fido dirigida hacia los niños y junto con Jimmy López decidieron que sería justo compartir la misiva y dejar en diferentes colegios junto con buzones hechos de cajas de zapatos para que los niños puedan responder al león.</p>
-    <p style="text-align: justify;">A través de un encuentro de activistas a favor del medio ambiente y animales en la ciudad de Oruro, el grupo Jóvenes Progresistas JPO denunció y solicitó realizar acciones a favor del león Fido y su cruel situación en el zoológico. Es así que se inició la campaña para trasladar al león Fido a un mejor hábitat. </p>
-    <p style="text-align: justify;">Al recibir y leer tantas respuestas a la carta de Fido, motivó que el movimiento crezca a nivel nacional. Para ese entonces se vio por conveniente unir fuerzas de diferentes organizaciones y grupos sociales de la ciudad de Oruro y es así como se conformó el Comité Interinstitucional para el traslado del león Fido.
-Ana Serrano Revollo,  vivió en carne propia todo el sufrimiento de los animales dentro de este centro de exterminio. Ella fue quien estuvo presente el momento que el león Fido dejó de respirar
-</p>
-<img class="img-center img-novp" src="<?php echo base_url();?>img/fidoweb.jpg" style="width:500px;height: 300px;" alt="">
-    <p style="text-align: justify;">Serrano cuenta que " Fido estaba echado del lado izquierdo y muy flaco, me sorprendí cuan raquítico lo vi.. el olor de su cubil era muy fuerte, el ambiente tenia olor a metano. Fido dejó de respirar a las 15:15 del 1ro de octubre del 2006. En ese momento, solo estábamos presentes el veterinario del zoológico de ese entonces y yo. A Fido no le practicaron la eutanasia, cuando murió el león, el veterinario quiso sacar muestras de sangre de las patas pero no pudo por tan caquéctico que estaba. Cuando el veterinario salió del cubil y fue a pedir ayuda a los trabajadores del zoológico decidí sacar mi cámara fotográfica y poder tener las fotografías y videos del león. Estas fotografías ayudaron muchísimo para mostrar a las autoridades y a los bolivianos las pésimas condiciones en que murió Fido. Aunque el veterinario pidió que no saquemos fotografías ni videos de Fido, ese mismo día por la noche viaje a La Paz y denuncié a través de las fotografías y videos  la verdadera muerte del león Fido.</p>
-    <p style="text-align: justify;">Las denuncias se realizaron en diferentes medios de comunicación de la ciudad de La Paz, activistas en varios medios de comunicación de la ciudad de Oruro hicieron lo mismo.  Nuestro amor y fidelidad hacia los animales es más grande que hacia las personas, es por eso que consideramos justo mostrar la realidad de tanto maltrato y sufrimiento que paso el león Fido sin respetar el pedido del ex veterinario del zoológico de Oruro.</p>
-    <p style="text-align: justify;">Cuando murió el león Fido, el Comité de traslado del león Fido decidió luchar por los demás animales que viven en el zoológico de Oruro, es por tal razón que en esa época se conformó el  “Comité interinstitucional de defensa de animales FIDO”.</p>
-    <p style="text-align: justify;">Con el transcurso del tiempo y con la experiencia vivida activamente a favor de los animales, se decidió crear la Fundación Amor por los animales Bolivia APLAB para que a través de la misma podamos ser la voz de los animales utilizando varias herramientas las cuales nos permitirán cumplir nuestros objetivos. </p>
-    <p style="text-align: justify;">El léon Fido  vivirá por siempre en nuestros corazones. </p>
-    <p style="text-align: justify;">LA Administración del zoológico de la ciudad de Oruro, la Dirección de medio ambiente de la Gobernación y la Dirección de Gestión Ambiental de la Alcaldia nunca hicieron caso a las resoluciones emitidas por la autoridad nacional competente, el zoológico de Oruro nunca se cerró, no cumplió en ningún momento el reglamento nacional para zoológicos de Bolivia. Las tortugas, monos, tejón, jochis y loros continúan esperando ser trasladados.</p>
-    <p style="text-align: justify;">Gracias a la tozudez y egoísmo del Alcalde de Oruro: Edgar Bazán, muchos animales murieron en condiciones precarias.</p>
-    <p style="text-align: justify;">Gracias por leer nuestra historia.</p>
-             		<!--FIN//  
+                        <div class="span10">   
+                            <h2>Fido</h2>
+
+                            <p style="text-align: justify;">    </p>
+                            <p style="text-align: justify;">Ana Serrano Revollo escribiï¿½ una carta por parte del leï¿½n Fido dirigida hacia los niï¿½os y junto con Jimmy Lï¿½pez decidieron que serï¿½a justo compartir la misiva y dejar en diferentes colegios junto con buzones hechos de cajas de zapatos para que los niï¿½os puedan responder al leï¿½n.</p>
+                            <p style="text-align: justify;">A travï¿½s de un encuentro de activistas a favor del medio ambiente y animales en la ciudad de Oruro, el grupo Jï¿½venes Progresistas JPO denunciï¿½ y solicitï¿½ realizar acciones a favor del leï¿½n Fido y su cruel situaciï¿½n en el zoolï¿½gico. Es asï¿½ que se iniciï¿½ la campaï¿½a para trasladar al leï¿½n Fido a un mejor hï¿½bitat. </p>
+                            <p style="text-align: justify;">Al recibir y leer tantas respuestas a la carta de Fido, motivï¿½ que el movimiento crezca a nivel nacional. Para ese entonces se vio por conveniente unir fuerzas de diferentes organizaciones y grupos sociales de la ciudad de Oruro y es asï¿½ como se conformï¿½ el Comitï¿½ Interinstitucional para el traslado del leï¿½n Fido.
+                        Ana Serrano Revollo,  viviï¿½ en carne propia todo el sufrimiento de los animales dentro de este centro de exterminio. Ella fue quien estuvo presente el momento que el leï¿½n Fido dejï¿½ de respirar
+                            </p>
+                            <img class="img-center img-novp" src="<?php echo base_url();?>img/fidoweb.jpg" style="width:500px;height: 300px;" alt="">
+                            <p style="text-align: justify;">Serrano cuenta que " Fido estaba echado del lado izquierdo y muy flaco, me sorprendï¿½ cuan raquï¿½tico lo vi.. el olor de su cubil era muy fuerte, el ambiente tenia olor a metano. Fido dejï¿½ de respirar a las 15:15 del 1ro de octubre del 2006. En ese momento, solo estï¿½bamos presentes el veterinario del zoolï¿½gico de ese entonces y yo. A Fido no le practicaron la eutanasia, cuando muriï¿½ el leï¿½n, el veterinario quiso sacar muestras de sangre de las patas pero no pudo por tan caquï¿½ctico que estaba. Cuando el veterinario saliï¿½ del cubil y fue a pedir ayuda a los trabajadores del zoolï¿½gico decidï¿½ sacar mi cï¿½mara fotogrï¿½fica y poder tener las fotografï¿½as y videos del leï¿½n. Estas fotografï¿½as ayudaron muchï¿½simo para mostrar a las autoridades y a los bolivianos las pï¿½simas condiciones en que muriï¿½ Fido. Aunque el veterinario pidiï¿½ que no saquemos fotografï¿½as ni videos de Fido, ese mismo dï¿½a por la noche viaje a La Paz y denunciï¿½ a travï¿½s de las fotografï¿½as y videos  la verdadera muerte del leï¿½n Fido.</p>
+                            <p style="text-align: justify;">Las denuncias se realizaron en diferentes medios de comunicaciï¿½n de la ciudad de La Paz, activistas en varios medios de comunicaciï¿½n de la ciudad de Oruro hicieron lo mismo.  Nuestro amor y fidelidad hacia los animales es mï¿½s grande que hacia las personas, es por eso que consideramos justo mostrar la realidad de tanto maltrato y sufrimiento que paso el leï¿½n Fido sin respetar el pedido del ex veterinario del zoolï¿½gico de Oruro.</p>
+                            <p style="text-align: justify;">Cuando muriï¿½ el leï¿½n Fido, el Comitï¿½ de traslado del leï¿½n Fido decidiï¿½ luchar por los demï¿½s animales que viven en el zoolï¿½gico de Oruro, es por tal razï¿½n que en esa ï¿½poca se conformï¿½ el  ï¿½Comitï¿½ interinstitucional de defensa de animales FIDOï¿½.</p>
+                            <p style="text-align: justify;">Con el transcurso del tiempo y con la experiencia vivida activamente a favor de los animales, se decidiï¿½ crear la Fundaciï¿½n Amor por los animales Bolivia APLAB para que a travï¿½s de la misma podamos ser la voz de los animales utilizando varias herramientas las cuales nos permitirï¿½n cumplir nuestros objetivos. </p>
+                            <p style="text-align: justify;">El lï¿½on Fido  vivirï¿½ por siempre en nuestros corazones. </p>
+                            <p style="text-align: justify;">LA Administraciï¿½n del zoolï¿½gico de la ciudad de Oruro, la Direcciï¿½n de medio ambiente de la Gobernaciï¿½n y la Direcciï¿½n de Gestiï¿½n Ambiental de la Alcaldia nunca hicieron caso a las resoluciones emitidas por la autoridad nacional competente, el zoolï¿½gico de Oruro nunca se cerrï¿½, no cumpliï¿½ en ningï¿½n momento el reglamento nacional para zoolï¿½gicos de Bolivia. Las tortugas, monos, tejï¿½n, jochis y loros continï¿½an esperando ser trasladados.</p>
+                            <p style="text-align: justify;">Gracias a la tozudez y egoï¿½smo del Alcalde de Oruro: Edgar Bazï¿½n, muchos animales murieron en condiciones precarias.</p>
+                            <p style="text-align: justify;">Gracias por leer nuestra historia.</p>
+                        </div>  
+                        <!--FIN//  
 			##############################################################
 			PANEL PRINCIPAL---COPIA TODO TU CODIGO DENTRO DEL DIV SPAN 10
 			##############################################################

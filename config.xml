@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <config>
 	<perros>
-        <raza>Chapi</raza><raza>Mestizo</raza><raza>Akita</raza><raza>Beagle</raza><raza>Boxer</raza></perros>       
+        <raza>raza1</raza></perros>       
 	<gatos>
         <raza>Mestizo</raza><raza>Abisinio</raza><raza>Angora Turco</raza><raza>Azul ruso</raza></gatos>       	
 </config>

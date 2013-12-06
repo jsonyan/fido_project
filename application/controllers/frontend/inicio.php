@@ -36,14 +36,11 @@ class Inicio extends CI_Controller
 	{				
 		if($this->input->post('submit'))
 		{			
-				
 			if($this->input->post('token') == $this->session->userdata('token'))
 			{
 				if($this->auth->validate() == FALSE)
 				{
-					
 					$this->index();
-					
 				}else{				
 					
 					$email = $this->input->post('email');
@@ -74,9 +71,7 @@ class Inicio extends CI_Controller
 			}
 
 		}else{
-			
 			redirect(base_url('frontend/inicio'));
-			
 		}
 			
 	}     
