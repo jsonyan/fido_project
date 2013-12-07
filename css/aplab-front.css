@@ -56,8 +56,15 @@
 	  #top-menu .top1{
 	  	background-color:#C520C4;
 	  }
-	  #top-menu .top2{
+	  #top-menu .top1 a:visited{
+	  	background-color:#d530d4;
+	  }
+
+          #top-menu .top2{
 	  	background-color:#DC143C;
+	  }
+          #top-menu .top2{
+	  	background-color:#eC244C;
 	  }
 	  #top-menu .top3{
 	  	background-color:#FF6600;
@@ -83,7 +90,17 @@
 		padding:10px 0;
 		color:#FFFFFF
 	  }
-	  .promo1{background-color:#7421CB;}
+          .promoAll{
+		margin:0;
+		border-top-right-radius:6px;
+		border-top-left-radius:6px;
+		border-bottom-right-radius:6px;
+		border-bottom-left-radius:6px;
+		padding:10px 0;
+		color:#FFFFFF
+          }
+
+          .promo1{background-color:#7421CB;}
 	  .promo2{background-color:#B7051A;}
 	  .promo3{ background-color:#FFCC00;}
 	  .promo4{ background-color:#417B31;}
@@ -99,8 +116,15 @@
 		text-align:center;
 		font-size:130%;	  
 	  }
-/* CONFIG DE ALGUNOS EFECTOS */
- .navbar-inner{
-	border:none; 
-	background:transparent url("../img/bg_navbar.png") 
+        /* CONFIG DE ALGUNOS EFECTOS */
+        .navbar-inner{
+               border:none; 
+               background:transparent url("../img/bg_navbar.png") 
+        }
+
+        /* CONFIGURACIONES PARA LOS ARTICULOS */
+/*        #titulo-articulo{}*/
+        #cuerpo-articulo{
+            font-size: 120%;
+        }
  }

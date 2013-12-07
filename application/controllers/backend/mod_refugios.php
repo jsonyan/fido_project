@@ -5,6 +5,12 @@ class Mod_refugios extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
+                if($this->auth->is_logged() == FALSE)
+                         {
+
+                                 redirect(base_url('frontend/inicio'));
+
+                         }
 	}
 	
 	function index(){

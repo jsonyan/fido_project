@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>APLAB - Modificacion de datos</title>
+<title>APLAB - AMOR POR LOS ANIMALES BOLIVIA</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="<?php echo base_url(); ?>css/bootstrap.css" rel="stylesheet" media="screen">
 <link href="<?php echo base_url(); ?>css/bootstrap-responsive.css" rel="stylesheet">

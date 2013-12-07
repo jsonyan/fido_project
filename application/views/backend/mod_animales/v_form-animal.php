@@ -16,10 +16,6 @@
 						<a href="<?php echo base_url()."index.php/backend/mod_animales/nuevo_animal"?>" class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="Nuevo animal">
 							<i class="icon-plus icon-white"></i> Nuevo</a>
 					</div>
-				<div class="input-append pull-right" style="margin-left:5px;">
-				<input name="clave" type="text" class="input-small search-query" placeholder="Palabra clave">
-				<button type="submit" class="btn btn-primary"><i class="icon-filter icon-white"></i>&nbsp;Filtrar</button>
-				</div>
 			</form>	
 			<!--END//  BARRA DE HERRAMIENTAS -->
 
@@ -164,9 +160,16 @@
 					<option <?php if(isset($esterilizado)){echo strcmp($esterilizado,"1")==0 ? "selected=\"true\"" : "";}?> value="1">Si</option>
 				</select>
 				</div>
-				<div class="input-prepend span8">
+				<div class="input-prepend span4">
+				<span class="btn-aplab input-small">Tatuaje</span>
+				<select name="tatuaje" class="span3">
+					<option <?php if(isset($tatuaje)){echo strcmp($tatuaje,"0")==0 ? "selected=\"true\"" : "";}?> value="0">No</option>
+					<option <?php if(isset($tatuaje)){echo strcmp($tatuaje,"1")==0 ? "selected=\"true\"" : "";}?> value="1">Si</option>
+				</select>
+				</div>
+                                <div class="input-prepend span4">
 				<span class="btn-aplab input-small">Detalles</span>
-                                <textarea name="caracteristicas" class="span7" placeholder="Caracteristicas / Descripcion / detalles / se&ntilde;as"><?php echo isset($caracteristicas) ? trim($caracteristicas) : "";?></textarea>
+                                <textarea name="caracteristicas" class="span3" placeholder="Caracteristicas / Descripcion / detalles / se&ntilde;as"><?php echo isset($caracteristicas) ? trim($caracteristicas) : "";?></textarea>
 				</div>
 
                             
@@ -192,7 +195,7 @@
 
 				<div class="input-prepend span4">
 				<span class="btn-aplab input-small">Nacimiento</span>
-				<input name="fecha_nacimiento" class="fnac span3" type="text" placeholder="Indicar fecha o edad aprox." value="<?php echo isset($nacimiento) ? $nacimiento : "" ?>">
+				<input name="fecha_nacimiento" class="fnac span3" type="text" placeholder="Indicar fecha" value="<?php echo isset($nacimiento) ? $nacimiento : "" ?>">
 				</div>
 				<div class="input-prepend span4">
 				<span class="btn-aplab input-small">Muerte</span>
@@ -207,13 +210,12 @@
 
 
 			</div>
-			<div class="text-center"><!--Begin row-->
-
+			<div class="text-center span8"><!--Begin row-->
 				<div class="text-center">
 					<div id="notif_data">
 					</div>	
-					<button id="registrar" type="submit" class=" rows spacer btn btn-primary span2"><i class="icon-file icon-white"></i> Guardar datos basicos</button>
-					<a href="<?php echo base_url();?>index.php/backend/mod_animales/ver_todos" class="spacer btn span2 row"><i class="icon-remove"></i> Cancelar</a>
+					<button id="registrar" type="submit" class="btn btn-primary"><i class="icon-file icon-white"></i> Guardar datos basicos</button>
+					<a href="<?php echo base_url();?>index.php/backend/mod_animales/ver_todos" class="btn"><i class="icon-remove"></i> Cancelar</a>
 				</div>
 			</div><!--end padding 5% box-->
 				</form>					

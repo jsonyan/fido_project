@@ -3,7 +3,7 @@
 	<div class="navbar promo4">
 		<div class="navbar-inner">
 		<div class="container">
-			<a  class="brand"style="color:white;">Necesitamos tu ayuda adopta  no compres!!</a>
+			<a  class="brand"style="color:white;">Necesitamos tu ayuda, Adopta! NO compres!!</a>
 
 			<!--INICIO//  BARRA DE HERRAMIENTAS -->
 					<div class="btn-group pull-right">					

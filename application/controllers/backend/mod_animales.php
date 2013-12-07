@@ -5,6 +5,12 @@ class Mod_animales extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
+                if($this->auth->is_logged() == FALSE)
+                         {
+
+                                 redirect(base_url('frontend/inicio'));
+
+                         }
 	}
 	
 	function index(){
@@ -79,6 +85,7 @@ class Mod_animales extends CI_Controller {
 			$datos['estado_encontrado'] = $fila['estado_encontrado'];
 			$datos['encontrado_por'] = $fila['encontrado_por'];
 			$datos['direccion_encontrado'] = $fila['direccion_encontrado'];
+			$datos['tatuaje'] = $fila['tatuaje'];
 			$datos['caracteristicas'] = $fila['caracteristicas'];
 			$datos['muerte'] = $fila['fecha_muerte'];
 			$datos['motivo_muerte'] = $fila['motivo_muerte'];
@@ -128,6 +135,7 @@ class Mod_animales extends CI_Controller {
                                    'tamano' => $this->input->post('tamanio'),
                            'motivo_entrada' => $this->input->post('motivo_entrada'),
                              'esterilizado' => $this->input->post('esterilizado'),
+                                  'tatuaje' => $this->input->post('tatuaje'),
                           'caracteristicas' => $this->input->post('caracteristicas'),
                         'estado_encontrado' => $this->input->post('estado_encontrado'),
                            'encontrado_por' => $this->input->post('encontrado_por'),

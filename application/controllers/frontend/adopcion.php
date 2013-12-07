@@ -13,9 +13,9 @@ class Adopcion extends CI_Controller {
    public function index($offset='')
    {
         $data = array('titulo' => 'iniciar session',
-					  'campos' => $this->auth->campos_formulario(),
-					  'token'  => $this->auth->token()       
-				      );
+            'campos' => $this->auth->campos_formulario(),
+            'token'  => $this->auth->token()       
+	);
       	$data['mod_activo'] = "adopciones";//Indicamos el modulo activo(clave: animales, adopciones, medico, seguimientos, usuarios, donaciones, reportes, config)
 		$this->load->view("frontend/v_header");
 		$this->load->view("frontend/v_top_menu_inicio",$data);

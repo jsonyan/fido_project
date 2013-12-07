@@ -1,3 +1,4 @@
+
 -- phpMyAdmin SQL Dump
 -- version 3.3.9
 -- http://www.phpmyadmin.net
@@ -132,6 +133,7 @@ CREATE TABLE IF NOT EXISTS `animal` (
   `fecha_muerte` date DEFAULT NULL,
   `motivo_muerte` text,
   `direccion_encontrado` varchar(200) DEFAULT NULL,
+  `tatuaje` tinyint(1) DEFAULT NULL,
   `encontrado_por` text,
   `adoptable` tinyint(1) DEFAULT NULL,
   `revision_medica` tinyint(1) NOT NULL DEFAULT '0',

@@ -9,12 +9,13 @@
 					</a>
 				</div>
 
-				<div class="mod-menu-item text-center <?php if(isset($mod_activo)){ echo strcmp($mod_activo,"adopciones")==0 ? "menu_activo" : "" ;}?>">
-					<a href="<?php echo base_url();?>backend/evaluacion" class="clearfix">
+<!--			<div class="mod-menu-item text-center <?php if(isset($mod_activo)){ echo strcmp($mod_activo,"adopciones")==0 ? "menu_activo" : "" ;}?>">
+					<a href="<?php echo base_url();?>backend/evaluacion/lista" class="clearfix">
 					<img src="<?php echo base_url(); ?>img/adopciones.png" alt="" style="width:80px; height:40px">
 					<small class="clearfix">Admin. de adopciones</small>
 					</a>
 				</div>
+-->
 				<div class="mod-menu-item text-center <?php if(isset($mod_activo)){ echo strcmp($mod_activo,"medico")==0 ? "menu_activo" : "" ;}?>">
 					<a class="clearfix" href="<?php echo base_url();?>index.php/backend/mod_historial_medico/ver_todos">
 					<img src="<?php echo base_url(); ?>img/seguimiento.png" alt="" style="width:80px; height:40px">
@@ -27,24 +28,26 @@
 					<small class="clearfix">Admin. de seguimientos</small>
 					</a>
 				</div>
-				<div class="mod-menu-item text-center <?php if(isset($mod_activo)){ echo strcmp($mod_activo,"refugios")==0 ? "menu_activo" : "" ;}?>">
+<!--				<div class="mod-menu-item text-center <?php if(isset($mod_activo)){ echo strcmp($mod_activo,"refugios")==0 ? "menu_activo" : "" ;}?>">
 					<a class="clearfix" href="<?php echo base_url();?>index.php/backend/mod_refugios/inicio">
 					<img src="<?php echo base_url(); ?>img/refugio2.png" alt="" style="width:80px; height:40px">
 					<small class="clearfix">Admin. de refugios</small>
 					</a>
 				</div>
+-->
 				<div class="mod-menu-item text-center <?php if(isset($mod_activo)){ echo strcmp($mod_activo,"usuarios")==0 ? "menu_activo" : "" ;}?>">
 					<a class="clearfix" href="<?php echo base_url();?>backend/usuarios/mostrar_usuarios_aplab">
 					<img src="<?php echo base_url(); ?>img/voluntarios.png" alt="" style="width:80px; height:40px">
 					<small class="clearfix">Admin. de usuarios</small>
 					</a>
 				</div>
-				<div class="mod-menu-item text-center <?php if(isset($mod_activo)){ echo strcmp($mod_activo,"donaciones")==0 ? "menu_activo" : "" ;}?>">
+<!--				<div class="mod-menu-item text-center <?php if(isset($mod_activo)){ echo strcmp($mod_activo,"donaciones")==0 ? "menu_activo" : "" ;}?>">
 					<a class="clearfix" href="#">
 					<img src="<?php echo base_url(); ?>img/donacion.png" alt="" style="width:80px; height:40px">
 					<small class="clearfix">Admin. de donaciones</small>
 					</a>
 				</div>
+-->
 				<div class="mod-menu-item text-center <?php if(isset($mod_activo)){ echo strcmp($mod_activo,"reportes")==0 ? "menu_activo" : "" ;}?>">
 					<a class="clearfix" href="<?php echo base_url();?>index.php/backend/mod_reportes">
 					<img src="<?php echo base_url(); ?>img/reportes.png" alt="" style="width:80px; height:40px">

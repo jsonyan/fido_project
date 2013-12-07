@@ -1,5 +1,15 @@
 <?php 
 class Mod_reportes extends CI_Controller {
+	function __construct()
+	{
+		parent::__construct();
+                if($this->auth->is_logged() == FALSE)
+                         {
+
+                                 redirect(base_url('frontend/inicio'));
+
+                         }
+	}
 	public function index() {
             $this->load->model('m_reportes');
             $data['mod_activo'] = "reportes";//Indicamos el modulo activo(clave: animales, adopciones, medico, seguimientos, usuarios, donaciones, reportes, config)

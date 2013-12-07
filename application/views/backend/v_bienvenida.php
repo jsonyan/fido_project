@@ -31,18 +31,6 @@
                 </a>
             </div><!--/span-->
           </div><!--/row-->
-          <div class="row span11">
-            <div class="span6">
-                <a class="box-notif-button" href="#">
-                <h4 class="well"><span class="badge badge-info badge-notif">3</span> animales pasaron revision medica</h4>
-                </a>
-            </div><!--/span-->
-            <div class="span6">
-                <a class="box-notif-button" href="#">
-                <h4 class="well">Quieren donar <span class="badge badge-info badge-notif">5</span> usuarios</h4>
-                </a>
-            </div><!--/span-->
-          </div><!--/row-->
 		
     </div>	
 

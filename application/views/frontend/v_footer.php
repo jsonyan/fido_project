@@ -1,12 +1,12 @@
       <div class="row spacer">
         <div class="span3 shadow-box">
-          <h5 class="text-center promo1">Adopta un compañer@
+          <h5 class="text-center promo1">Adopta una mascota
 	        <a class="btn btn-mini pull-right" style="margin:0 10px;" href="<?php echo base_url()?>frontend/adopcion">Ver mas &raquo;</a>
 		  </h5>
           <img class="img-center img-novp" src="<?php echo base_url();?>posts/1adop.jpg" alt=""> 
         </div>
         <div class="span3 shadow-box">
-          <h5 class="text-center promo2">¿Quieres ser voluntario?
+            <h5 class="text-center promo2">&iquest;Quieres ser voluntario?
 	        <a class="btn btn-mini pull-right" style="margin:0 10px;" href="<?php echo base_url()?>frontend/inicio/voluntariado">Ver mas &raquo;</a>
 		  </h5>
           <img class="img-center img-novp" src="<?php echo base_url();?>posts/2vol.jpg" alt=""> 

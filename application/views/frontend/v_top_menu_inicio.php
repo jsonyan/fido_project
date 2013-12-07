@@ -15,7 +15,7 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Acerca de APLAB<b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li class="nav-header">Institucional</li>                  
-                  <li><a href="<?php echo base_url()?>frontend/inicio/historia">Antecedentes</a></li>
+                  <li><a href="<?php echo base_url()?>frontend/inicio/historia">Historia</a></li>
                   <li><a href="<?php echo base_url()?>frontend/inicio/somos">Quienes somos??</a></li>
                   <li><a href="#">Mision y vision</a></li>
                   

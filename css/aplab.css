@@ -204,3 +204,13 @@ border-bottom-left-radius:4px;
     text-align: center;
     font-size: 130%;   
 }
+
+/*######## MODIFICACIONES MODULOS: OSCAR YAVI ############*/
+#pagination-digg .active{
+   background:#0099ff;
+   color:white;
+   font-weight:bold;
+   display:block;
+   float:left;
+   padding:5px 13px;
+}

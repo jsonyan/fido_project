@@ -7,7 +7,7 @@
 
 			<!--INICIO//  BARRA DE HERRAMIENTAS -->
 					<div class="btn-group pull-right">										
-						<a href="<?php echo base_url()?>backend/usuarios" class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="Nueva Donación">
+						<a href="<?php echo base_url()?>backend/usuarios" class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="Nueva Donaciï¿½n">
 							<i class="icon-plus icon-white"></i>Registrar Nuevo Usuario</a> 
                         
                         <a href="<?php echo base_url()?>backend/usuarios/mostrar_usuarios_aplab" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Ver donaciones monetarias">
@@ -31,28 +31,8 @@
 			PANEL PRINCIPAL---COPIA TODO TU CODIGO DENTRO DEL DIV SPAN 10
 			##############################################################
 			-->
-<script type="text/javascript">
-   $(document).ready(function(){
-      $("#contenedor").load("/backend/evaluacion/lista");
-      $(document).on("click", "#pagination-digg li a", function(e){
-          e.preventDefault();
-         var href = $(this).attr("href");
-         $("#contenedor").load(href);
-      }); 
-   });
-</script>
-<style type="text/css">
-#pagination-digg .active{
-   background:#0099ff;
-   color:white;
-   font-weight:bold;
-   display:block;
-   float:left;
-   padding:5px 13px;
-}
-</style>
 <div id="contenedor">
-
+</div>
 
 			<!--FIN//  
 			##############################################################
@@ -71,5 +51,15 @@
 
 
 	<!--INICIO// CARGA SCRIPTS -->
+<script type="text/javascript">
+   $(document).ready(function(){
+      $("#contenedor").load("/backend/evaluacion/lista");
+      $(document).on("click", "#pagination-digg li a", function(e){
+          e.preventDefault();
+         var href = $(this).attr("href");
+         $("#contenedor").load(href);
+      }); 
+   });
+</script>
 	
 	<!--FIN// CARGA SCRIPTS-->
